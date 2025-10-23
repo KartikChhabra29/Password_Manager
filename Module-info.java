@@ -2,7 +2,7 @@
  * 
  */
 /**
- * @author laksh
+ * @author Kartik
  *
  */
 module PasswordManager {
