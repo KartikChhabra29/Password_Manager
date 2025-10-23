@@ -82,6 +82,6 @@ public class PasswordManager {
         c.init(Cipher.DECRYPT_MODE, key);
         byte[] decodedValue = Base64.getDecoder().decode(encryptedData);
         byte[] decValue = c.doFinal(decodedValue);
-        return new String(decValue);
+        return new String(decValud);
     }
 }
